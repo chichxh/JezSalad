@@ -373,7 +373,7 @@ mark{
     }
     .footer div a {
         display: block;
-        margin-bottom: -15px;
+        margin-bottom: 0px;
         text-decoration: none;
         color: #575757;
     }
@@ -395,3 +395,24 @@ mark{
         justify-content: space-between;
         margin: 0;
     } 
+    .footer div:nth-child(3) {
+        position: relative;
+    }
+    .footer div:nth-child(3) a {
+        margin-left: 30px;
+    }
+    .footer div:nth-child(3) a:nth-child(2):before {
+        content: url("../img/location_on.svg");
+        position: absolute;
+        left: -5px;
+    }
+    .footer div:nth-child(3) a:nth-child(4):before {
+        content: url("../img/email.svg");
+        position: absolute;
+        left: -5px;
+    }
+    .footer div:nth-child(3) a:nth-child(6):before {
+        content: url("../img/🔹\ Icon\ Color.svg");
+        position: absolute;
+        left: -2px;
+    }
